@@ -7,3 +7,5 @@ function sumar()
 	alert("ok");
 }
 
+//parseInt(variable)   meto algo y me da un numero intero y se lo puedo asignar a algo
+//ej: edad=parseInt(edad);
