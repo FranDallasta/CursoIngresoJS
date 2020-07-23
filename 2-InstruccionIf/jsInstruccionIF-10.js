@@ -1,6 +1,6 @@
 function mostrar()
 {
-	var nota = Math.floor(Math.random()* 10);
+	let nota = Math.floor(Math.random()* 10);
 	if ((nota <= 10) && (nota>=9))
 	{
 		alert("EXCELENTE");
