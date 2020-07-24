@@ -1,16 +1,18 @@
 function mostrar()
 {
-	let nota = Math.floor(Math.random()* 10);
-	if ((nota <= 10) && (nota>=9))
+	let vMin = 1;
+	let vMax = 10;
+	let nota = Math.round(Math.random()* (vMax - vMin)+vMin);
+	if ((nota>=9))
 	{
-		alert("EXCELENTE");
+		alert(nota + " EXCELENTE");
 	}
 	else if((nota < 9) && (nota >= 4))
 	{
-		alert("APROBÓ");
+		alert(nota + " APROBÓ");
 	}
 	else
 	{
-		alert("Vamos, la proxima se puede");
+		alert(nota + " Vamos, la proxima se puede");
 	}
 }//FIN DE LA FUNCIÓN
