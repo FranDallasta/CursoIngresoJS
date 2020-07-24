@@ -6,3 +6,4 @@ function mostrar()
 		alert("Niña bonita")
 	}
 }//FIN DE LA FUNCIÓN
+// hola
