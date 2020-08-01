@@ -18,18 +18,7 @@ function mostrar() {
 		case 19:
 			alert("Es de tarde.");
 			break;
-		case 20:
-		case 21:
-		case 22:
-		case 23:
-		case 24:
-		case 0:
-		case 1:
-		case 2:
-		case 3:
-		case 4:
-		case 5:
-		case 6:
+		default:
 			alert("Es de noche.");
 			break;
 	}

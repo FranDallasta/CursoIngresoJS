@@ -11,7 +11,7 @@ E.	Si el importe final con descuento suma más de $120  se debe sumar un 10% de 
 function CalcularPrecio() {
     let cantLamparas = parseInt(document.getElementById("txtIdCantidad").value);
     let marcaLamparas = document.getElementById("Marca").value;
-    let precioLampara = 35;
+    const precioLampara = 35;
     let precio;
     let impuestito;
 
@@ -51,8 +51,8 @@ function CalcularPrecio() {
             precio = (precioLampara * cantLamparas) * 0.5; //descuento del 50 %
             break;
         default:
-            precio = (precioLampara * cantLamparas) * 0.5 + ((precioLampara * cantLamparas) * 0.5) * 0.1;
             impuestito = ((precioLampara * cantLamparas) * 0.5) * 0.1;
+            precio = (precioLampara * cantLamparas) * 0.5 + impuestito;
             alert(`Usted pago ${impuestito.toFixed(2)} de IIBB`);
             break;
     }
