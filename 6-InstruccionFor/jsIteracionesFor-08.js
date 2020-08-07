@@ -1,7 +1,9 @@
 function mostrar() {
 	let contadorDivisores = 0;
 	let numero;
-	numero = prompt("Ingrese un numero");
+	do{
+		numero = parseInt(prompt("Ingrese un numero"));
+	}while(numero < 0 || isNaN(numero));
 	for (let i = 0; i != numero; i++) {
 		if (numero % i == 0) {
 			contadorDivisores++;
