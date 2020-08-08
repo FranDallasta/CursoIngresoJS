@@ -1,4 +1,3 @@
-
 function mostrar() {
 	//Informacion de producto
 	let tipoProducto;
@@ -54,4 +53,3 @@ function mostrar() {
 	alert(`El ${mayorUnidadTipo} con mas unidades tiene ${mayorCantidadTipo} y da un promedio de ${promedioTipos}`);
 	alert(`La cantitad total de jabones es de ${totJabones}`);
 }
-
